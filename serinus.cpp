@@ -17,6 +17,7 @@
  */
 
 #include "serinus.h"
+#include <math.h>
 
 #include <QDebug>
 

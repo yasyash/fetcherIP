@@ -171,7 +171,7 @@ void ModbusIP::readData()
                     {md = (_mode ?  "off" :  "measuring");};
                 }
 
-                if ((_type == 2) && (addr > 29)){ name = "CH2O"; //hardcoded for the Fort measure equipment address = 30 (or OPTEC's equipments)
+                if ((_type == 2) && (addr > 8)){ name = "CH2O"; //hardcoded for the Fort measure equipment address = 30 (or OPTEC's equipments)
                     if (_mode == 2) md = "fault";
                     else
                     {md = (_mode ?  "off" :  "measuring");};
